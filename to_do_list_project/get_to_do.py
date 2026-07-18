@@ -25,5 +25,5 @@ print("Your To-Do_List : " , final_to_do_list)
 
 format_todo = "\n".join(final_to_do_list)
 
-file_path = Path("./.todo.txt")
+file_path = Path.home("./.todo.txt")
 file_path.write_text(format_todo, encoding="utf-8")
